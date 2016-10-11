@@ -142,39 +142,7 @@
       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script>
-      $(function() {
-        var responsiveVideo = function() {
-          // Find all YouTube videos
-          var $allVideos = $("iframe[src*='//www.youtube.com'], iframe[src*='//www.facebook.com']"),
-          // The element that is fluid width
-          $fluidEl = $allVideos.parent();
-          // Figure out and save aspect ratio for each video
-          $allVideos.each(function() {
-            $(this)
-              .data('aspectRatio', this.height / this.width)
-              // and remove the hard coded width/height
-              .removeAttr('height')
-              .removeAttr('width');
-          });
-          // When the window is resized
-          $(window).resize(function() {
-            var newWidth = $fluidEl.width();
-            // Resize all videos according to their own aspect ratio
-            $allVideos.each(function() {
-              var $el = $(this);
-              $el
-                .width(newWidth)
-                .height(newWidth * $el.data('aspectRatio'))
-                .css('margin-top', '10px')
-                .css('margin-bottom', '10px');
-            });
-          // Kick off one resize to fix all videos on page load
-          }).resize();
-        };
-        responsiveVideo();
-      });
-    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://jlm2017.github.io/theme/dist/components.js"></script>
   </body>
 </html>
