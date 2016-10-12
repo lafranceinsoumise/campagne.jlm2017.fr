@@ -8,17 +8,6 @@ image: /visuel-rs.png
   <img class="img-responsive" src="/logo-convention.png" />
 </p>
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/LIl78yO57EU?rel=0" frameborder="0" allowfullscreen></iframe>
-
-
-<!-- une ligne bouton -->
-<div style="text-align: center;">
-  <!-- un premier bouton -->
-  <a href="http://www.jlm2017.fr/consultation_programme" align="center" style="display: inline-block; background-color: #0098b6; color: #ffffff; margin: 5px; vertical-align: middle; padding: 10px; width: 230px; max-height: 40px; text-decoration: none;">
-    <strong>Participez à la consultation</strong>
-  </a>
-</div>
-
 <hr />
 
 La première convention nationale de la France insoumise aura lieu à Lille les 15 et 16 octobre 2016.
