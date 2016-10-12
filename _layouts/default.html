@@ -81,7 +81,8 @@
         </div>
         <div id="supporter-nav-collapse" class="collapse navbar-collapse">
           <ul class="nav navbar-nav" role="group">
-            <li class="active"><a href="#">Informations sur la convention</a></li>
+            <li{% if page.url == '/'%} class="active"{% endif %}><a href="/">En direct</a></li>
+            <li{% if page.url == '/informations.html'%} class="active"{% endif %}><a href="/informations/">Informations sur la convention</a></li>
             <li ><a href="http://www.jlm2017.fr/consultation_programme">Consultation sur le programme</a></li>
             <li><a href="http://www.jlm2017.fr/">— Retour sur JLM2017</a></li>
           </ul>
@@ -89,9 +90,7 @@
       </div>
     </nav>
     <div class="container">
-      <div class="col-responsive">
-        {{ content }}
-      </div>
+      {{ content }}
     </div>
     <footer>
       <div class="container">

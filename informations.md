@@ -1,10 +1,10 @@
 ---
-layout: default
-title: Convention de la France Insoumise
+layout: main_column
+title: Informations - Convention de la France Insoumise
 ---
 
 <p>
-  <img class="img-responsive" src="logo-convention.png" />
+  <img class="img-responsive" src="/logo-convention.png" />
 </p>
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/LIl78yO57EU?rel=0" frameborder="0" allowfullscreen></iframe>
