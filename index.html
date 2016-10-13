@@ -24,10 +24,22 @@ image: /visuel-rs.png
     <!-- Bouton donner -->
     <a href="https://dons.jlm2017.fr" class="btn btn-primary btn-block btn-lg">Je donne</a>
 
+    <!-- Direct -->
     <hr>
-    <p>
-      La convention de la France insoumise a lieu ce weekend à Lille ! Afin que chacun.e puisse participer à cet événement, les deux journées seront diffusées en direct grâce à un dispositif en streaming. Vous pourrez suivre cet événement inédit en direct dès le samedi à 13h30 sur notre site.
-    </p>
+    <h3>En direct</h3>
+    <div class="row">
+      <div style="max-height: 300px; overflow:auto;">
+        {% for event in site.data.direct %}
+          <div class="col-xs-2 col-sm-1 text-important">
+            {{ event.time }}
+          </div>
+          <div class="col-xs-10 col-sm-11">
+            {{ event.content | markdownify }}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
   </div>
 
   <!-- Col 2 -->
