@@ -1,6 +1,7 @@
 ---
 layout: main_column
 title: Informations - Convention de la France Insoumise
+image: /visuel-rs.png
 ---
 
 <p>

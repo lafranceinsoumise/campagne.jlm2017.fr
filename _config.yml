@@ -3,3 +3,8 @@ kramdown:
    hard_wrap: false
 gems:
   - jekyll-seo-tag
+
+twitter:
+  username: JLM_2017
+facebook:
+  publisher: 212018935817034
