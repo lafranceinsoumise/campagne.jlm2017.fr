@@ -1,7 +1,7 @@
 - time: "11:26"
   content: La chorale insoumise fait ses gammes…
   image: "/photos/samedi_11_26.jpg"
-  full_width: true
+  img_full_width: true
 
 - time: "10:55"
   content: |
