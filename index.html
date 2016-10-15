@@ -34,7 +34,18 @@ image: /visuel-rs.png
             {{ event.time }}
           </div>
           <div class="col-xs-10 col-sm-11">
-            {{ event.content | markdownify }}
+            {% if event.image %}
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  {{ event.content | markdownify }}
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <img src="{{ event.image }}" alt="Illustration" class="img-responsive" />
+                </div>
+              </div>
+            {% else %}
+              {{ event.content | markdownify }}
+            {% endif %}
           </div>
         {% endfor %}
       </div>
