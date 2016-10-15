@@ -1,8 +1,13 @@
+- time: "15:05"
+  content: |
+    Intervention de Rémy Garnier, lancer d'alerte de l'affaire Cahuzac.
+
 - time: "15:00"
   content: |
     > "Quand on est debout on doit se servir de nos jambes pour ne pas tomber.  Alors utilisons-les. Avec la France insoumise et Jean Luc Melenchon pour 2017"
 
     <p class="text-right">Leila Chaibi</p>
+  image: /photos/samedi_15_03.jpg
 
 - time: "14:56"
   content: |
