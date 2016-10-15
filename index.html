@@ -50,10 +50,10 @@ image: /visuel-rs.png
           <div class="col-xs-10 col-sm-11">
             {% if event.image %}
               <div class="row">
-                <div class="col-xs-12{% unless event.img_full_width == true %} col-sm-6{% cycle ' col-sm-push-6', '' %}{% endunless %}">
+                <div class="col-xs-12{% unless event.img_full_width == true %} col-sm-6{% endunless %}">
                   {{ event.content | markdownify }}
                 </div>
-                <div class="col-xs-12{% unless event.img_full_width == true %} col-sm-6{% cycle ' col-sm-pull-6', '' %}{% endunless %}">
+                <div class="col-xs-12{% unless event.img_full_width == true %} col-sm-6{% endunless %}">
                   <p>
                     <img src="{{ event.image }}" alt="Illustration" class="img-responsive"/>
                   </p>
