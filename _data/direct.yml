@@ -1,8 +1,7 @@
 - time: "13:11"
   content: |
-    Pourquoi es-tu à Lille aujourd'hui ? " Parce que là où je vis, la situation politique dégrade les habitants. On doit réagir !"
-
-    Adrien, Hénin-Beaumont.
+    > Pourquoi es-tu à Lille aujourd'hui ? " Parce que là où je vis, la situation politique dégrade les habitants. On doit réagir !"
+    <p class="text-right">Adrien, Hénin-Beaumont.</p>
 
 - time: "12:46"
   content: |
