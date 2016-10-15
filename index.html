@@ -47,11 +47,13 @@ image: /visuel-rs.png
           <div class="col-xs-10 col-sm-11">
             {% if event.image %}
               <div class="row">
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-xs-12{% unless event.img_full_width == true %} col-sm-6 col-sm-push-6{% endunless %}">
                   {{ event.content | markdownify }}
                 </div>
-                <div class="col-xs-12 col-sm-6">
-                  <img src="{{ event.image }}" alt="Illustration" class="img-responsive" />
+                <div class="col-xs-12{% unless event.img_full_width == true %} col-sm-6 col-sm-pull-6{% endunless %}">
+                  <p>
+                    <img src="{{ event.image }}" alt="Illustration" class="img-responsive"/>
+                  </p>
                 </div>
               </div>
             {% else %}
