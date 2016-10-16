@@ -1,3 +1,7 @@
+- time: "10:42"
+  content: |
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/xmpvV2yVNS0?rel=0" frameborder="0" allowfullscreen></iframe>
+
 - time: "10:39"
   content: |
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/oLM73eKnDfo?rel=0" frameborder="0" allowfullscreen></iframe>
