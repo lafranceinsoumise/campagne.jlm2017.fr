@@ -1,7 +1,7 @@
 - time: "10:47"
   content: |
-    Hamma Hammami, porte-parole du Front Populaire de Tunisie, intervient par
-    vidéo.
+    Hamma Hammami, porte-parole du Front Populaire de Tunisie, clôt la
+    séquence internationale.
 
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/5HvN_p1ZoJ8?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -16,6 +16,10 @@
 - time: "10:39"
   content: |
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/oLM73eKnDfo?rel=0" frameborder="0" allowfullscreen></iframe>
+
+- time: "10:35"
+  content: |
+    **Les invités internationaux interviennent par vidéo.**
 
 - time: "10:31"
   content: |
