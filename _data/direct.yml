@@ -1,3 +1,10 @@
+- time: "10:00"
+  content: |
+    Le café, le petit carnet… aujourd’hui commence une nouvelle journée
+    d’insoumission qui se concluera par un discours de Jean-Luc Mélenchon à
+    11h30.
+  image: /photos/dimanche_10_01.jpg
+
 - time: "9:47"
   content: |
     **Bonjour et bienvenu pour cette dernière journée de convention de la
