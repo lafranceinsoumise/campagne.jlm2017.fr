@@ -1,9 +1,16 @@
+- time: "10:31"
+  content: |
+    > &laquo;&nbsp;Je sais que Jean-Luc Mélenchon est un vrai insoumis, et
+    > n'acceptera jamais ce que Tsipras a accepté pour la Grèce.&nbsp;&raquo;
+
+    <p class="text-right">Zoe Konstantopoulou</p>
+
 - time: "10:30"
   content: |
     > &laquo;&nbsp;Ce n'est pas un gouvernement de droite, ce n'est pas un
     > gouvernement de gauche. C'est un gouvernement de traîtres.&nbsp;&raquo;
 
-    <p class="text-right">Zoe Konstantopoulou</p> 
+    <p class="text-right">Zoe Konstantopoulou</p>
   image: /photos/dimanche_10_25.jpg
 
 - time: "10:25"
