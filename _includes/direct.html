@@ -1,0 +1,24 @@
+{% for event in site.data[direct] %}
+  <div class="col-xs-2 col-sm-1 text-important">
+    {{ event.time }}
+  </div>
+  <div class="col-xs-10 col-sm-11">
+    {% if event.image %}
+      <div class="row">
+        <div class="col-xs-12{% unless event.img_full_width == true %} col-sm-6{% endunless %}">
+          {{ event.content | markdownify }}
+        </div>
+        <div class="col-xs-12{% unless event.img_full_width == true %} col-sm-6{% endunless %}">
+          <p>
+            <img src="{{ event.image }}" alt="Illustration" class="img-responsive"/>
+          </p>
+        </div>
+      </div>
+    {% else %}
+      {{ event.content | markdownify }}
+    {% endif %}
+  </div>
+  {% unless forloop.last %}
+    <p class="text-center">--</p>
+  {% endunless %}
+{% endfor %}
