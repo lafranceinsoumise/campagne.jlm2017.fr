@@ -26,46 +26,22 @@
           <a class="navbar-brand" href="/"><img alt=" " src="https://jlm2017.github.io/theme/images/jlm_2017.png"></a>
         </div>
         <div id="menu-collapse" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active">
-              <a href="http://www.jlm2017.fr/la_demarche">La démarche</a>
-            </li>
-            <li class=" dropdown">
-              <a href="http://www.jlm2017.fr/projet" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Le projet <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="http://www.jlm2017.fr/le_projet">Le projet</a></li>
-                <li><a href="http://www.jlm2017.fr/rapporteurs">Biographies</a></li>
-                <li><a href="http://www.jlm2017.fr/methode">Méthode</a></li>
-                <li><a href="http://www.jlm2017.fr/projet_conference_de_presse_de_lancement">Conférence de presse de lancement</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="http://www.jlm2017.fr/agir">J'agis</a>
-            </li>
-            <li>
-              <a href="http://www.jlm2017.fr/donner">Je donne</a>
-            </li>
-            <li>
-              <a href="http://www.jlm2017.fr/actualites">Actus</a>
-            </li>
-            <li>
-              <a href="http://www.jlm2017.fr/convention">Convention</a>
-            </li>
-            <li>
-              <a href="http://www.jlm2017.fr/le_blog">Le blog</a>
-            </li>
-            <li class=" dropdown">
-              <a href="http://www.jlm2017.fr/plus" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">plus <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                  <li><a href="http://www.jlm2017.fr/commander_du_materiel">Le matériel</a></li>
-                  <li><a href="http://www.jlm2017.fr/groupes_appui_redirige">Les groupes d'appui</a></li>
-                  <li><a href="http://www.jlm2017.fr/evenements_locaux_redirige">Les évènements locaux</a></li>
-                  <li><a href="http://www.jlm2017.fr/agenda_melenchon">L'agenda de JLM</a></li>
-                  <li><a href="http://www.jlm2017.fr/parrainages">Les parrainages</a></li>
-                  <li><a href="http://www.jlm2017.fr/universites_populaires">Universités populaires</a></li>
-              </ul>
-            </li>
-          </ul>
+          <div id="menu-export"></div>
+          <script>
+          (function() {
+              /** SETTINGS **/
+              var themeLocation = 'primary_navigation';
+              var addBootstrapCSS = true;
+
+              var r = new XMLHttpRequest();
+              r.open('GET', 'https://actus.jlm2017.fr/?menu_export=1&theme_location=' + themeLocation + (addBootstrapCSS ? '&bootstrap=1' : ''), true);
+              r.onreadystatechange = function () {
+                if (r.readyState != 4 || r.status != 200) return;
+                document.getElementById('menu-export').innerHTML = r.responseText;
+              };
+              r.send();
+          })();
+          </script>
     </div>
       </div>
     </nav>
