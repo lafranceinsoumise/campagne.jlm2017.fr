@@ -9,3 +9,7 @@ twitter:
 facebook:
   app_id: 212018935817034
   publisher: https://www.facebook.com/JLM2017
+
+collections:
+  evenements:
+    output: true

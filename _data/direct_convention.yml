@@ -13,7 +13,7 @@
   content: |
     **C'est l'heure du discours de clotûre de Jean-Luc Mélenchon. Suivez le avec
     nous en direct&nbsp;!**
-  image: /photos/dimanche_11_30.jpg
+  image: photos/dimanche_11_30.jpg
 
 - time: "11:25"
   content: |
@@ -48,7 +48,7 @@
   content: |
     Charlotte Girard vient présenter le résultat de la seconde consultation et
     la suite du processus programmatique.
-  image: /photos/dimanche_11_13.jpg
+  image: photos/dimanche_11_13.jpg
 
 - time: "11:07"
   content: |
@@ -56,14 +56,14 @@
     > Avec des outils d'action mais aussi des outils d'argument.&nbsp;&raquo;
 
     <p class="text-right">Bastien Lachaud</p>
-  image: /photos/dimanche_11_07.jpg
+  image: photos/dimanche_11_07.jpg
 
 
 - time: "11:05"
   content: |
     Bastien Lachaud, chargé des événements de campagne, vient évoquer le
     [carnet de campagne](https://convention.jlm2017.fr/livret.pdf).
-  image: /photos/dimanche_10_05.jpg
+  image: photos/dimanche_10_05.jpg
 
 - time: "11:00"
   content: |
@@ -79,7 +79,7 @@
     Mathilde Panot, coordinatrice des groupes d'appui de la France insoumise,
     présente la Caravane insoumise qui a sillonné la France cet été et continue
     de le faire.
-  image: /photos/dimanche_10_58.jpg
+  image: photos/dimanche_10_58.jpg
 
 - time: "10:52"
   content: |
@@ -91,7 +91,7 @@
   content: |
     **Manuel Bompard entre en scène pour présenter les objectifs et le sens de la
     campagne. &laquo;&nbsp;Une campagne pour fédérer le peuple.&nbsp;&raquo;**
-  image: /photos/dimanche_10_50.jpg
+  image: photos/dimanche_10_50.jpg
 
 - time: "10:47"
   content: |
@@ -132,7 +132,7 @@
     > gouvernement de gauche. C'est un gouvernement de traîtres.&nbsp;&raquo;
 
     <p class="text-right">Zoe Konstantopoulou</p>
-  image: /photos/dimanche_10_25.jpg
+  image: photos/dimanche_10_25.jpg
 
 - time: "10:25"
   content: |
@@ -157,7 +157,7 @@
     Tonnerre d'aplaudissement pour Aminata Traoré ancienne ministre de la
     Culture et du Tourisme du Mali, dont le discours a ému l'ensemble des
     paricipants.
-  image: /photos/dimanche_10_15.jpg
+  image: photos/dimanche_10_15.jpg
 
 - time: "10:12"
   content: |
@@ -172,7 +172,7 @@
     tous.&nbsp;&raquo;
 
     <p class="text-right">Aminata Traoré</p>
-  image: /photos/dimanche_10_08.jpg
+  image: photos/dimanche_10_08.jpg
 
 - time: "10:02"
   content: |
@@ -188,13 +188,13 @@
     Le café, le petit carnet… aujourd’hui commence une nouvelle journée
     d’insoumission qui se concluera par un discours de Jean-Luc Mélenchon à
     11h30.
-  image: /photos/dimanche_10_01.jpg
+  image: photos/dimanche_10_01.jpg
 
 - time: "9:47"
   content: |
     **Bonjour et bienvenu pour cette dernière journée de convention de la
     France insoumise&nbsp;!**
-  image: /photos/dimanche_9_47.jpg
+  image: photos/dimanche_9_47.jpg
 
 - time: "20:27"
   content: |
@@ -214,7 +214,7 @@
     > C'est la même campagne que nous ménerons à l'élection présidentielle et
     > aux élections législatives. Nous voulons avoir 577 candidats titulaires
     > et 577 candidats suppléants pour les législatives.
-  image: /photos/samedi_19_59.jpg
+  image: photos/samedi_19_59.jpg
 
 - time: "19:57"
   content: |
@@ -228,12 +228,12 @@
     > &laquo;&nbsp;tout peut changer, tout doit changer [...] Il faut changer
     notre modèle de société et sortir de la logique qui bénéficie toujours aux
     multinationales.&nbsp;&raquo;
-  image: /photos/samedi_19_48.jpg
+  image: photos/samedi_19_48.jpg
 
 - time: "19:41"
   content: |
     L'insoumise Émilie Bertrand dénonce le projet d'incinérateur de déchet d'Ivry.
-  image: /photos/samedi_19_41.jpg
+  image: photos/samedi_19_41.jpg
 
 - time: "19:33"
   content: |
@@ -242,12 +242,12 @@
 - time: "19:26"
   content: |
     Daniel Pilc vient présenter son opposition à la ferme des 3000 porcs.
-  image: /photos/samedi_19_26.jpg
+  image: photos/samedi_19_26.jpg
 
 - time: "19:16"
   content: |
     Christian Velot, lanceur d'alerte, vient maintenant parler des OGM, comment s'en passer&nbsp;?
-  image: /photos/samedi_19_16.jpg
+  image: photos/samedi_19_16.jpg
 
 - time: "19:14"
   content: |
@@ -258,7 +258,7 @@
 - time: "19:04"
   content: |
     La cogitation insoumise c'est un moment pour réfléchir mais aussi faire le plein de matériel militants aux différents stands.
-  image: /photos/samedi_19_04.jpg
+  image: photos/samedi_19_04.jpg
 
 - time: "18:49"
   content: |
@@ -270,7 +270,7 @@
 - time: "18:35"
   content: |
     Danielle Simonnet,  conseillère de Paris, vient parler de l'uberisation de la société et des risques sociaux que cela implique.
-  image: /photos/samedi_18_43.jpg
+  image: photos/samedi_18_43.jpg
 
 - time: "18:30"
   content: |
@@ -285,7 +285,7 @@
     m'ont dit de terminer d'abord mon travail. Résultat j'ai fais un AVC.
     Le collègue qui m'a sauvé en insistant que l'ambulance soit appellée est
     aujourd'hui suspendu.&nbsp;&raquo;
-  image: /photos/samedi_18_26.jpg
+  image: photos/samedi_18_26.jpg
 
 - time: "18:16"
   content: |
@@ -300,14 +300,14 @@
 - time: "18:01"
   content: |
     Chantal Grain prend la parole pour parler des hôpitaux. Il faut rétablir les services publics !
-  image: "/photos/samedi_18_01.jpg"
+  image: "photos/samedi_18_01.jpg"
 
 - time: "17:49"
   content: |
     Liêm Hoang-Ngoc, économiste, présente maintenant une solution : le protectionnisme&nbsp;!
 
     > &laquo;&nbsp;Nous abrogerons la loi travail et le CICE.&nbsp;&raquo;
-  image: /photos/samedi_17_50.jpg
+  image: photos/samedi_17_50.jpg
 
 - time: "17:46"
   content: |
@@ -325,7 +325,7 @@
     sur les délocalisations de l'industrie métallurgique.
 
     > &laquo;&nbsp;Alors oui je suis insoumis face à cette caste qui se gorge d'argent et de privilèges.&nbsp;&raquo;
-  image: /photos/samedi_17_35.jpg
+  image: photos/samedi_17_35.jpg
 
 - time: "17:25"
   content: |
@@ -364,7 +364,7 @@
 - time: "16:25"
   content: |
     **C'est l'heure de la première cogitation insoumise : "Comment convaincre le plus grand nombre&nbsp;?"**
-  image: "/photos/samedi_16_25.jpg"
+  image: "photos/samedi_16_25.jpg"
 
 - time: "16:24"
   content: |
@@ -383,12 +383,12 @@
     Alexandra Mortet présente maintenant l'action de la caravane insoumise.
 
     > &laquo;&nbsp;Ceux qui ont intérêt au maintient des privilèges d'une minorité au détriment de la majorité iront voter. Il faut donc que nous nous mobilisions car nous sommes des millions.&nbsp;&raquo;
-  image: /photos/samedi_15_54.jpg
+  image: photos/samedi_15_54.jpg
 
 - time: "15:44"
   content: |
     Prise de parole de Eric Coquerel, pour parler du plan B en Europe.
-  image: /photos/samedi_15_44.jpg
+  image: photos/samedi_15_44.jpg
 
 - time: "15:40"
   content: |
@@ -407,12 +407,12 @@
     Cassandre Begous intervient au sujet de la liberté du genre.
 
     > &laquo;&nbsp;Il est nécessaire de s'intéresser à la souffrance et à la marginalisation sociale des personnes transgenres.&nbsp;&raquo;
-  image: /photos/samedi_15_23.jpg
+  image: photos/samedi_15_23.jpg
 
 - time: "15:13"
   content: |
     Issa Coulibaly prend la parole pour parler des contrôles au faciès.
-  image: /photos/samedi_15_13.jpg
+  image: photos/samedi_15_13.jpg
 
 - time: "15:05"
   content: |
@@ -423,7 +423,7 @@
     > &laquo;&nbsp;Quand on est debout on doit se servir de nos jambes pour ne pas tomber.  Alors utilisons-les. Avec la France insoumise et Jean Luc Melenchon pour 2017.&nbsp;&raquo;
 
     <p class="text-right">Leila Chaibi</p>
-  image: /photos/samedi_15_03.jpg
+  image: photos/samedi_15_03.jpg
 
 - time: "14:56"
   content: |
@@ -481,7 +481,7 @@
     Au stand programme : on rappelle comment sur plus de 6 mois on a recueilli,
     analysé et mis en musique les plus de 3 000 contributions d'insoumis-e-s.
     Résultat : un chant de victoire, l'Avenir en commun !
-  image: "/photos/samedi_13_51.jpg"
+  image: "photos/samedi_13_51.jpg"
 
 - time: "13:47"
   content: |
@@ -497,13 +497,13 @@
     > &laquo;&nbsp;toutes les étapes pour aller jusqu'à la victoire&nbsp;!&nbsp;&raquo;
 
     <p class="text-right">Mickael, Marseille.</p>
-  image: "/photos/samedi_13_33.jpg"
+  image: "photos/samedi_13_33.jpg"
 
 - time: "13:20"
   content: |
     Au stand "groupes d'appui", les volontaires qui coordonnent les plus de
     1 300 groupes d'insoumis-e-s&nbsp;!
-  image: "/photos/samedi_13_20.jpg"
+  image: "photos/samedi_13_20.jpg"
 
 - time: "13:11"
   content: |
@@ -513,16 +513,16 @@
 - time: "12:46"
   content: |
     Plus d'une dizaine d'heures depuis Perpignan, Nice, Marseille ou Lyon, les insoumis-e-s reprennent des forces avant le début de la Convention ! Et le soleil brille à Lille !
-  image: "/photos/samedi_12_46.jpg"
+  image: "photos/samedi_12_46.jpg"
 
 - time: "12:06"
   content: |
     Les gens font la queue pour s'inscrire ! Les bus arrivent de partout en France. Les insoumis.e.s arrivé.e.s se rencontrent dans le village des volontaires à la buvette et aux différents espace : groupes d'appui, programme, parrainages, librairie, matériel...
-  image: "/photos/samedi_12_06.jpg"
+  image: "photos/samedi_12_06.jpg"
 
 - time: "11:26"
   content: La chorale insoumise fait ses gammes…
-  image: "/photos/samedi_11_26.jpg"
+  image: "photos/samedi_11_26.jpg"
 
 - time: "10:55"
   content: |

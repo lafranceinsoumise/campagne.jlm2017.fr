@@ -1,0 +1,96 @@
+---
+layout: default
+title: Convention de la France Insoumise
+slug : convention
+date: 2016-10-15
+image: visuel-rs.png
+description: |
+  Les 15 et 16 octobre, c’est la Convention de la France insoumise à Lille. Suivez l’évènement en direct sur ce site !
+---
+<!-- Logo -->
+<div class="row">
+  <div class="col-responsive">
+    <p>
+      <img class="img-responsive" src="logo-convention.png" />
+      {{ page.name }}
+    </p>
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <!-- Col 1 -->
+  <div class="col-md-8">
+
+    <!-- Streaming -->
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/-iC9UDYir8c" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Infos -->
+    <p class="lead visible-xs visible-sm">
+      Participez sur <a href="https://twitter.com/search?q=%23LilleFi">#LilleFi</a>
+      et par SMS au 06 44 63 41 00
+    </p>
+
+    <div class="row">
+      <div class="col-md-12">
+        <!-- Bouton donner -->
+        <p>
+          Pour financer cet évènement, nous ne pouvons compter que sur nous-mêmes.<br />
+          Aidez en faisant un don :
+        </p>
+        <p><a href="https://dons.jlm2017.fr" class="btn btn-primary btn-block btn-lg">Je donne</a></p>
+      </div>
+      <div class="col-md-12">
+
+      </div>
+    </div>
+
+    <!-- Télécharger les documents -->
+    <h3>Télécharger les documents</h3>
+    <div class="row">
+      <div class="col-sm-6"><p><a href="livret.pdf" class="btn btn-primary btn-block">Le petit carnet</a></p></div>
+      <div class="col-sm-6"><p><a href="adresse.pdf" class="btn btn-primary btn-block">L'adresse au peuple français</a></p></div>
+      <div class="col-sm-6"><p><a href="fiche_cogitations.pdf" class="btn btn-primary btn-block">Fiche "Cogitations insoumises"</a></p></div>
+      <div class="col-sm-6"><p><a href="fiche_1.pdf" class="btn btn-primary btn-block">Cogitation insoumise n°1</a></p></div>
+      <div class="col-sm-6"><p><a href="fiche_2.pdf" class="btn btn-primary btn-block">Cogitation insoumise n°2</a></p></div>
+      <div class="col-sm-6"><p><a href="fiche_3.pdf" class="btn btn-primary btn-block">Cogitation insoumise n°3</a></p></div>
+      <div class="col-sm-6"><p><a href="synthese_1.pdf" class="btn btn-primary btn-block">Synthèse n°1</a></p></div>
+      <div class="col-sm-6"><p><a href="synthese_2.pdf" class="btn btn-primary btn-block">Synthèse n°2</a></p></div>
+    </div>
+    <!-- Direct -->
+    <hr>
+    <h3>En direct</h3>
+    <p><small>Rechargez la page pour voir les dernières informations.</small></p>
+    <div class="row">
+      <div style="max-height: 950px; overflow:auto;">
+        {% assign direct='direct_convention' %}
+        {% include direct.html %}
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Col 2 -->
+  <div class="col-md-4 col-md-offset-0">
+
+    <!-- Infos -->
+    <p class="lead hidden-xs hidden-sm">
+      Participez sur <a href="https://twitter.com/search?q=%23LilleFi">#LilleFi</a>
+      et par SMS au 06 44 63 41 00
+    </p>
+    <hr />
+
+    <!-- Déroulé -->
+    {% include convention_deroule.html %}
+    <hr/>
+
+    <!-- Twitter -->
+    <a class="twitter-timeline"  href="https://twitter.com/hashtag/LilleFi" data-widget-id="786120519259033601" width="800" height="660" data-chrome="noborders">Tweets sur #LilleFi</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <!-- Videomaton -->
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/videoseries?list=PL49hPUZTPboXuDLLu-4pv242PXa4APNh-" frameborder="0" allowfullscreen></iframe>
+
+  </div>
+</div>

@@ -1,11 +1,12 @@
 ---
 layout: main_column
 title: Informations - Convention de la France Insoumise
-image: /visuel-rs.png
+image: visuel-rs.png
+slug : convention
 ---
 
 <p>
-  <img class="img-responsive" src="/logo-convention.png" />
+  <img class="img-responsive" src="logo-convention.png" />
 </p>
 
 <hr />
