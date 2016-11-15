@@ -1,3 +1,9 @@
+- time: "21:24"
+  content: |
+    Tous ces gens n'ont pas pu rentrer dans la salle&nbsp;!
+  image: photos/21-25.jpg
+  img_full_width: true
+
 - time: "21:02"
   content: |
     Nous avons trouvé la source de cette coupure. Nous avons été victimes d'un
