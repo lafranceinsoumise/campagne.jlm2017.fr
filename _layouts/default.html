@@ -68,7 +68,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tous les évenements <span class="caret"></span></a>
               <ul class="dropdown-menu">
               {% comment %}We test date to know if this is an index event page.{% endcomment %}
-              {% assign evenements = site.evenements | sort: 'date' %}
+              {% assign evenements = site.evenements | where: 'menu', 'true' | sort: 'date' %}
               {% for event in evenements %}
                 <li><a href="{{ event.url }}">{{ event.title }}</a></li>
               {% endfor %}
