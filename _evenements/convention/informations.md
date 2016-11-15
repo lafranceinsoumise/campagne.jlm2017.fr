@@ -1,7 +1,7 @@
 ---
 layout: main_column
 title: Informations - Convention de la France Insoumise
-image: visuel-rs.png
+image: /evenements/convention/visuel-rs.png
 slug : convention
 ---
 
