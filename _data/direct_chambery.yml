@@ -1,3 +1,7 @@
+- time: "15h52"
+  image: photos/15-52.jpg
+  img_full_width: true
+
 - time: "15:48"
   content: |
     A la centrale de la Bâthie nous avons visiter les salles des machines et des
