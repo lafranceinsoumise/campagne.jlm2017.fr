@@ -1,3 +1,9 @@
+- time: "20:08"
+  content: |
+    De l'autre côté de la rue, ils sont tout aussi attentifs.
+  image: photos/20-08.jpg
+  img_full_width: true
+
 - time: "20:05"
   content: |
     Écoute attentive dans la rue.
