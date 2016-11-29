@@ -1,16 +1,18 @@
+- time: "17:11"
+  image: photos/17-05.jpg
+  img_full_width: true
+
 - time: "16:14"
   content: |
     #OFF
-    
+
     Préparation du discours de ce soir dans le train.
   image: photos/16-14.jpg
-  img_full_width: true
 
 - time: "14:27"
   content: |
     Dans le train direction Bordeaux pour la Réunion publique au théâtre Femina !
   image: photos/14-27.jpg
-  img_full_width: true
 
 - time: "10:40"
   content: |
