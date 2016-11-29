@@ -1,3 +1,9 @@
+- time: "20:05"
+  content: |
+    Écoute attentive dans la rue.
+  image: photos/20-05.jpg
+  img_full_width: true
+
 - time: "19:59"
   content: |
     Face au vote utile et au vote futile, je propose le vote nécessaire : celui de l'avenir en commun. #JLMBordeaux
