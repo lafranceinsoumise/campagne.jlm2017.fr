@@ -1,3 +1,9 @@
+- time: "19:03"
+  content: |
+    Dans le hall du théâtre.
+  image: photos/19-03.jpg
+  img_full_width: true
+
 - time: "18:30"
   content: |
     #OFF
