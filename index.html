@@ -1,11 +1,11 @@
 ---
 layout: default
-title: EN DIRECT - MÉLENCHON - Réunion publique à Bordeaux - #JLMBordeaux
-slug : bordeaux
-date: 2016-11-29
-image: visuel_rs.jpg
+title: Déplacement de Jean-Luc Mélenchon en Martinique et en Guadeloupe
+slug : martinique_guadeloupe
+date: 2016-12-16
+image: photos/visuel_martinique.jpg
 description: |
-  Suivez la réunion publique de Jean-Luc Mélenchon à Bordeaux en direct sur ce site !
+  Suivez le déplacement de Jean-Luc Mélenchon en Martinique et en Guadeloupe !
 ---
 
 <div class="row">
@@ -13,11 +13,13 @@ description: |
   <div class="col-md-8">
 
     <!-- Streaming -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/boAJ1tTpW0s" frameborder="0" allowfullscreen></iframe>
+    <p>
+      <img src="photos/visuel_martinique.jpg" class="img-responsive">
+    </p>
 
     <!-- Infos -->
     <p class="lead hidden-xs hidden-sm">
-      Participez sur <a href="https://twitter.com/search?q=%23JLMBordeaux">#JLMBordeaux</a>&nbsp;!
+      Participez sur <a href="https://twitter.com/search?q=%23JLMLamentin">#JLMLamentin</a>&nbsp;!
     </p>
 
     <div class="row">
@@ -38,7 +40,7 @@ description: |
     <p><small>Rechargez la page pour voir les dernières informations.</small></p>
     <div class="row">
       <div style="max-height: 950px; overflow:auto;">
-        {% assign direct='direct_bordeaux' %}
+        {% assign direct='direct_martinique_guadeloupe' %}
         {% include direct.html %}
       </div>
     </div>
@@ -50,14 +52,13 @@ description: |
 
     <!-- Infos -->
     <p class="lead hidden-xs hidden-sm">
-      Participez sur <a href="https://twitter.com/search?q=%23JLMBordeaux">#JLMBordeaux</a>&nbsp;!
+      Participez sur <a href="https://twitter.com/search?q=%23JLMLamentin">#JLMLamentin</a>&nbsp;!
     </p>
 
     <hr/>
 
-    <!-- Twitter -->
-    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/JLMBordeaux" data-widget-id="803535720342294528">Tweets sur #JLMBordeaux</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <!-- Déroulé -->
+    {% include martinique_guadeloupe_deroule.html %}
 
   </div>
 </div>
