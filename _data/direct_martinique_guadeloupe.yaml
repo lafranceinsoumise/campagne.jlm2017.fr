@@ -2,6 +2,9 @@
   content: |
     Merci de nous avoir suivi&nbsp;!
 
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/4vhQIa0KAtw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
 - time: sam. 15h40 (20h40)
   image: photos/16_20_40.jpg
   img_full_width: true
