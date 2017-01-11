@@ -2,3 +2,9 @@
   content: |
     17h - Voyage studieux dans le train, direction Le Mans ! RDV à 19h&nbsp;!
   image: photos/17-00.jpg
+
+- time: "18:21"
+  content: |
+    Déjà beaucoup de monde attend pour entrer dans la salle&nbsp;!
+  image: photos/18-21.jpg
+  img_full_width: true
