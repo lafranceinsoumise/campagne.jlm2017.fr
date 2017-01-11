@@ -30,3 +30,8 @@
     salle n°3
   image: photos/salle3-19-16.jpg
   img_full_width: true
+
+- time: "19:32"
+  content: |
+    Plus de 2000 personnes ! 3 salles pleines et 2 halls bondés. Quel accueil au Mans ! Bravo et merci. #JLMLeMans
+  image: photos/19-32.jpg
