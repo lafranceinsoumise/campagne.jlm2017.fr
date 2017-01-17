@@ -153,15 +153,14 @@
         }).addTo(pastMap);
         places.forEach(function(place) {
           var marker = L.marker(place.coordinates).addTo(pastMap);
-          marker.bindPopup("<b>" + place.name + "</b><br/>" + place.description);
+          marker.bindPopup("<b>" + place.title + "</b>");
         });
       };
       var places = [
-        {name: "Bordeaux", description: "Réunion publique.", coordinates: [44.833328, -0.56667]},
-        {name: "Gosier (Guadeloupe)", description: "Réunion publique", coordinates: [16.2274, -61.4858]},
-        {name: "Chambéry", description: "Réunion publique", coordinates: [45.5823, 5.9064]},
-        {name: "Le Mans", description: "Sécurité sociale.", coordinates: [47.9873, 0.1548]},
-        {name: "Tourcoing", description: "Pauvreté, conditions de travail.", coordinates: [50.7211, 3.1363]}
+        {% assign evenements = site.evenements | where: 'map', 'true' %}
+        {% for event in evenements %}
+          {title: "{{ event.title }}", coordinates: [{{ event.coordinates[0] }}, {{ event.coordinates[1] }}]},
+        {% endfor %}
       ];
       drawMap(places);
     </script>
