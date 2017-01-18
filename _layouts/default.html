@@ -7,6 +7,7 @@
     <meta property="og:url" content="https://www.youtube.com/embed/odyu0ggGko4" />
     {% seo %}
     <link rel="stylesheet" href="https://jlm2017.github.io/theme/dist/theme.css" media="screen">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
@@ -142,5 +143,32 @@
       ga('create', 'UA-57940932-7', 'auto');
       ga('send', 'pageview');
     </script>
+    {% if page.url == "/" %}
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <script>
+      var drawMap = function (places) {
+        var pastMap = L.map('past-map').setView([46.3630104, 2.9846608], 5);
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(pastMap);
+        places.forEach(function(place) {
+          var marker = L.marker(place.coordinates).addTo(pastMap);
+          marker.bindPopup("<b><a href=\"" + place.url + "\">"  + place.subject + "</a></b><br>" + place.theme);
+        });
+      };
+      var places = [
+        {% assign evenements = site.evenements | where: 'map', 'true' %}
+        {% for event in evenements %}
+          {
+            url: "{{ event.url }}",
+            subject: "{{ event.subject }}",
+            theme: "{{ event.theme }}",
+            coordinates: [{{ event.coordinates[0] }}, {{ event.coordinates[1] }}]
+          },
+        {% endfor %}
+      ];
+      drawMap(places);
+    </script>
+    {% endif %}
   </body>
 </html>
