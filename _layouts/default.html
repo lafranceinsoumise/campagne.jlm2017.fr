@@ -153,13 +153,13 @@
         }).addTo(pastMap);
         places.forEach(function(place) {
           var marker = L.marker(place.coordinates).addTo(pastMap);
-          marker.bindPopup("<b>" + place.title + "</b>");
+          marker.bindPopup("<b>" + place.city + "</b><br>" + place.subject);
         });
       };
       var places = [
         {% assign evenements = site.evenements | where: 'map', 'true' %}
         {% for event in evenements %}
-          {title: "{{ event.title }}", coordinates: [{{ event.coordinates[0] }}, {{ event.coordinates[1] }}]},
+          {city: "{{ event.city }}", subject: "{{ event.subject }}", coordinates: [{{ event.coordinates[0] }}, {{ event.coordinates[1] }}]},
         {% endfor %}
       ];
       drawMap(places);
