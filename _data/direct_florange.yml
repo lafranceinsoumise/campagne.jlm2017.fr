@@ -1,3 +1,14 @@
+- time: "20:13"
+  content: |
+    Deuxième partie du discours dans le hall, lui aussi plein à craquer...
+  image: photos/20-13.jpg
+
+- time: "20:00"
+  content: |
+    Le discours commence à l'extérieur où beaucoup de gens n'ont pas pu rentrer
+  image: photos/20-00.jpg
+  img_full_width: true
+
 - time: "19:20"
   content: |
     La salle est pleine à craquer
