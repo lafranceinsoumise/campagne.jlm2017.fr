@@ -1,6 +1,6 @@
-# convention.jlm2017.fr
+# campagne.jlm2017.fr
 
-Repository for http://convention.jlm2017.fr.
+Repository for http://campagne.jlm2017.fr.
 
 This website use [Jekyll](https://jekyllrb.com/). You need `jekyll` installed to build this website.
 
