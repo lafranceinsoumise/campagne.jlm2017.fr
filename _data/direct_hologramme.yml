@@ -1,4 +1,10 @@
+- time: sam. 12:04
+  content: |
+    À #Champagney, visite de la maison de la négritude. Ici le cahier de doléances demandant l'abolition de l'esclavage.
+  image: photos/sam-12-04.jpg
+
 - time: sam. 12:00
   content: |
     Accueil républicain par la maire de Champagney.
   image: photos/sam-12-00.jpg
+  img_full_width: true
