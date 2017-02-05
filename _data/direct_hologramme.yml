@@ -1,7 +1,9 @@
 - time: dim. 14:04
   content: |
     Salle pleine à Lyon et y'a encore la queue jusqu'au tram&nbsp;!
-  img: photos/dim-14-04.jpg
+  image: photos/dim-14-04.jpg
+  img_full_width: true
+
 
 - time: dim. 13:43
   content: |
