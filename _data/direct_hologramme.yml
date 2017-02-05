@@ -1,4 +1,10 @@
-- tme: dim. 15:38
+- time: dim. 15:42
+  content: |
+    > Il faut que d'ici à 2030 on ait l'équivalent de 15 réacteurs nucléaires en énergies marines renouvelables !
+  image: photos/dim-15-42.jpg
+  img_full_width: true
+
+- time: dim. 15:40
   content: |
     > « Nous avons une idée : le numérique en commun ! Protection des données, neutralité du net… »
   image: photos/dim-15-40.jpg
