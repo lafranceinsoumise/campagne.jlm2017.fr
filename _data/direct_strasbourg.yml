@@ -1,3 +1,7 @@
+- time: "19:50"
+  image: photos/19-50.jpg
+  img_full_width: true
+
 - time: "18:58"
   content: |
     La grande salle du Palais de la Musique et des Congrès est remplie alors qu'il y un la queue jusqu'au tram dehors !
