@@ -1,8 +1,13 @@
+- time: "12:41"
+  content: |
+    Manifestation devant le Parlement européen contre le Ceta avec les Insoumis.e.s !
+  image: photos/12-41.jpg
+  img_full_width: true
+
 - time: "11:21"
   content: |
     Au Parlement européen, Jean-Luc Mélenchon intervient pour dénoncer le CETA, traité de libre-échange anti-social et anti-écologique entre l'Union européenne et le Canada, imposé sans consulter le peuple.
   image: photos/11-21.jpg
-  img_full_width: true
 
 - time: "09:24"
   content: |
