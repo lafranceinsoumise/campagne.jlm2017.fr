@@ -1,6 +1,11 @@
+- time: "17:34"
+  content: |
+    __Noam Ambourousi__ : Nous voulons recruter 10 000 médecins et 52 000 soignants en 5 ans.
+  image: photos/17-34-50.jpg
+  img_full_width: true
 - time: "17:27"
   content: |
-    Charlotte Girard : deux français sur trois sont favorables à notre proposition sur la Sécurité sociale.
+    __Charlotte Girard__ : deux français sur trois sont favorables à notre proposition sur la Sécurité sociale.
   image: photos/17-27-36.jpg
   img_full_width: true
 - time: "17:22"
