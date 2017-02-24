@@ -58,7 +58,7 @@ theme: Ecologie
     <h3>En direct</h3>
     <p><small>Rechargez la page pour voir les dernières informations.</small></p>
     <div class="row">
-      <div style="max-height: 950px; overflow:auto;">
+      <div style="max-height: 950px; overflow:auto;" id="direct">
         {% assign direct='direct_journee_ecologie' %}
         {% include direct.html %}
       </div>
@@ -82,8 +82,22 @@ theme: Ecologie
 
     <!-- widget twitter -->
     <a class="twitter-timeline"  href="https://twitter.com/hashtag/EcologieFi" data-widget-id="834768868140843009">Tweets sur #EcologieFi</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+    <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+        return t;
+      }(document, "script", "twitter-wjs"));</script>
+    <script>window.direct = "{{ site.data_dir }}/{{ direct }}.yml";</script>
+    <script type="text/javascript" src="/main.37fb48f5.js"></script>
 
     <hr/>
 

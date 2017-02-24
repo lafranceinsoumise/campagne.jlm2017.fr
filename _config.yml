@@ -1,3 +1,4 @@
+data_dir: data
 url: https://campagne.jlm2017.fr
 kramdown:
    input: GFM
