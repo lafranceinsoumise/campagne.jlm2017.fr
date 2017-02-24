@@ -151,7 +151,7 @@
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(pastMap);
-        places.forEach(function(place) {
+        places.filter(function(place){ return !!place.coordinates[0]; }).forEach(function(place) {
           var marker = L.marker(place.coordinates).addTo(pastMap);
           marker.bindPopup("<b><a href=\"" + place.url + "\">"  + place.subject + "</a></b><br>" + place.theme);
         });
@@ -161,8 +161,8 @@
         {% for event in evenements %}
           {
             url: "{{ event.url }}",
-            subject: "{{ event.subject }}",
-            theme: "{{ event.theme }}",
+            subject: "{{ event.subject | escape }}",
+            theme: "{{ event.theme | escape }}",
             coordinates: [{{ event.coordinates[0] }}, {{ event.coordinates[1] }}]
           },
         {% endfor %}
