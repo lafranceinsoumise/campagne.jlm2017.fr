@@ -1,3 +1,13 @@
+- time: "13:55"
+  content: |
+    Lisez ici [l'article du Huffigton Post](http://www.huffingtonpost.fr/2017/02/25/le-contre-salon-de-lagriculture-de-jean-luc-melenchon/) sur le salon de l'écologie&nbsp;!
+
+- time: "13:48"
+  content: |
+    Transition écologique et emploi - Philippe Quirion, Directeur de recherches au CNRS, économiste au Centre international de recherche sur l'environnement et le développement (CIRED), spécialiste de la transition énergétique.
+  photos: 13_48.jpg
+  img_full_width: true
+
 - time: "12:42"
   content: |
     Les livrets de la France Insoumise sont arrivés à la Journée de l'écologie&nbsp;!
