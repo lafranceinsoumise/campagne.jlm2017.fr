@@ -1,3 +1,9 @@
+- time: "12:42"
+  content: |
+    Les livrets de la France Insoumise sont arrivés à la Journée de l'écologie&nbsp;!
+  image: photos/12_42.jpg
+  img_full_width: true
+
 - time: "12:33"
   content: |
     L’anthropocène : nouvelle époque pour la Terre, nouvelle condition humaine - Christophe Bonneuil, Historien des sciences CNRS.
