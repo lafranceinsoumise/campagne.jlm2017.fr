@@ -1,3 +1,7 @@
+- time: "12:21"
+  image: photos/12_21.jpg
+  img_full_width: true
+
 - time: "12:09"
   content: |
     Visite 3D d’un parc d’éolien en mer par Christian Rodriguez.
@@ -15,7 +19,6 @@
   image: photos/12_03.jpg
 
 - time: "11:44"
-  content: ""
   image: photos/11_44.jpg
   img_full_width: true
 
