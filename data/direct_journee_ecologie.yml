@@ -1,3 +1,9 @@
+- time: "15:08"
+  content: |
+    Au stand d'Algorapolis on mange des algues. 😊
+  image: photos/15_08.jpg
+  img_full_width: true
+
 - time: "14:02"
   image: photos/14_02.jpg
   img_full_width: true
