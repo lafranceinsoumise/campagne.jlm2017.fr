@@ -1,3 +1,13 @@
+- time: "mar. 17:30"
+  content: |
+    Fin de l'enregistrement de l'émission d'Europe 1.
+  image: photos/mar_17_30.jpg    
+
+- time: "mar. 16:16"
+  content: |
+    Dans le #E1bus, diffusion à 19h !
+  image: photos/mar_16_16.jpg
+
 - time: "mar. 16:04"
   content: |
     Arrivé à Brest&nbsp;!
