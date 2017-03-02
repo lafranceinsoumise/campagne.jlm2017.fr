@@ -11,4 +11,8 @@ description: |
 
 <p class="text-center">Cette carte recense tous les départs de cars pour le 18 mars. Cliquez sur un point pour obtenir plus d'informations&nbsp! Retrouvez aussi <a href="https://materiel.jlm2017.fr/categorie-produit/18-mars/cars-18-mars/">la liste complète des cars</a>.</p>
 
-<iframe src="https://jlm2017.github.io/map-car-18mars/" style="width: 100%; height: 80vh;" frameborder="0">
+<script>
+document.write('<iframe src="https://jlm2017.github.io/map-car-18mars/' +
+  (location.hash.slice(1) ? '?zipcode=' + location.hash.slice(1) : '') +
+  '" style="width: 100%; height: 80vh;" frameborder="0">');
+</script>
