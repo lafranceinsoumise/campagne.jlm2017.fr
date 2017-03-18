@@ -1,3 +1,9 @@
+- time: "12:40"
+  content: |
+    Ali, 28 ans, Nantes, Informaticien&nbsp;!
+  image: photos/12-40.jpg
+  img_full_width: true
+
 - time: "12:05"
   content: |
     Déjà beaucoup de monde s'est rassemblé place de la Bastille&nbsp;!
