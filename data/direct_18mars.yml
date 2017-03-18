@@ -1,3 +1,9 @@
+- time: "10:51"
+  content: |
+    Anthony, 22 ans, Lyon, Comptable
+  image: photos/10-51.jpg
+  img_full_width: true
+
 - time: "10:48"
   content: |
     Thierry, 44 ans, Décines, Archéologue
