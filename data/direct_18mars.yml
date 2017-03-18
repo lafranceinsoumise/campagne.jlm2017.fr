@@ -1,9 +1,14 @@
+- time: "12:05"
+  content: |
+    Déjà beaucoup de monde s'est rassemblé place de la Bastille&nbsp;!
+  image: photos/12-05.jpg
+  img_full_width: true
+
 - time: "11:57"
   content: |
     Gilles, 28 ans, Rédacteur, Saint Laurs
   image: photos/11-57.jpg
   img_full_width: true
-
 
 - time: "11:45"
   content: |
