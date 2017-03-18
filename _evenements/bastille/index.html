@@ -14,18 +14,10 @@ subject: Marche pour la 6e République
 theme: 6e République
 ---
 
-<img class="img-responsive" src="{{ site.url }}/evenements/bastille/bandeau.jpg" alt="Marche pour la 6e République"/>
+<p>
+  <img class="img-responsive" src="{{ site.url }}/evenements/bastille/bandeau.jpg" alt="Marche pour la 6e République"/>
+</p>
 
-<div class="row">
-  <div class="col-sm-8">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/GKH8iIYtmnk" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <div class="col-sm-4">
-    {% include 18mars_deroule.html %}
-    <div class=""><a target="_blank" class="btn btn-sm btn-block btn-primary" href="https://materiel.jlm2017.fr/horaires-cars-18-mars/">Horaire et lieux des cars</a></div>
-  </div>
-</div>
-<hr />
 <p class="lead">
   Le samedi 18 mars à 14h, rendez-vous place de la Bastille pour participer à la Marche pour la 6e République de la France insoumise avec Jean-Luc Mélenchon&nbsp;!
 </p>
@@ -33,45 +25,47 @@ theme: 6e République
   Partagez cet évènement sur les réseaux sociaux avec les hashtags <a href="https://twitter.com/search?q=%2318mars2017" target="_blank">#18mars2017</a> et <a href="https://twitter.com/search?q=%236eRépublique" target="_blank">#6eRépublique</a>.
 </p>
 
-<hr>
-
-<h3>1. Je m'inscris</h3>
-
 <div class="row">
-  <div class="col-md-4 bottom-margin">
-    <div>
-      <h4 class="text-center">INFORMATIONS IMPORTANTES</h4>
-      <ul>
-        <li>Compte tenu de l'affluence prévue, nous vous invitons à venir tôt.</li>
-        <li>Pour des raisons de sécurité et de place, merci de ne pas venir avec un sac volumineux (sac à dos, valise, sac de sport, etc.).</li>
-        <li>Veuillez noter que les objets métalliques seront interdit (couteaux, fourchettes, etc.).</li>
-      </ul>
+  <div class="col-sm-8">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/b5atq_VZd2M" frameborder="0" allowfullscreen></iframe>
+    <div class="row">
+      <p>
+        <div class="col-xs-12 bottom-margin"><a target="_blank" class="btn btn-lg btn-block btn-primary" href="https://dons.jlm2017.fr/">Je fais un don</a></div>
+        <div class="col-md-6 bottom-margin"><a target="_blank" class="btn btn-lg btn-block" style="background-color:#3b5998;color: white;" href="https://www.facebook.com/sharer/sharer.php?app_id=113869198637480&sdk=joey&u=http%3A%2F%2F18mars2017.fr%2F&display=popup&ref=plugin&src=share_button">PARTAGER SUR FACEBOOK</a></div>
+        <div class="col-md-6 bottom-margin"><a target="_blank" class="btn btn-lg btn-block" style="background-color:#4099FF;color: white;" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Ffr%2Fresources%2Fbuttons&ref_src=twsrc%5Etfw&text=%F0%9F%94%B4%20Suivez%20en%20direct%20la%20marche%20pour%20la%206e%20R%C3%A9publique.%20Discours%20de%20%40JLMelenchon%20%C3%A0%2015h.%20%2318mars2017&tw_p=tweetbutton&url=https%3A%2F%2F18mars2017.fr">PARTAGER SUR TWITTER</a></div>
+        <div class="col-md-6 bottom-margin"><a target="_blank" class="btn btn-lg btn-block btn-primary" href="visuels_rs/VisuelsCouvFB.zip">Visuels Facebook</a></div>
+        <div class="col-md-6 bottom-margin"><a target="_blank" class="btn btn-lg btn-block btn-primary" href="visuels_rs/VisuelsCouvTW.zip">Visuels Twitter</a></div>
+      <br/><br/>
     </div>
-    <a target="_blank" style="height: 200px;" class="btn btn-md btn-block btn-primary bottom-margin" href="http://www.jlm2017.fr/rendez_vous_place_de_la_bastille_le_18_mars_2017">
-      Je participe
-      <br/>
-      <br/>
-      <img src="{{ site.url }}/icons/participe.png" alt="test" style="height: 110px; width: auto;"></img>
-    </a>
-    <a target="_blank" class="btn btn-lg btn-block btn-primary" href="https://dons.jlm2017.fr/">Je fais un don</a>
+    <h3>En direct</h3>
+    <div class="row">
+      <div style="max-height: 1500px; border-left: 1px solid #DDD; overflow:auto; padding-top: 10px;" id="direct">
+        {% assign direct='direct_18mars' %}
+      </div>
+    </div>
   </div>
-  <div class="col-md-8 bottom-margin">
-    <img src="{{ site.url }}/evenements/bastille/photos/bastille1.jpg" alt="planBastille.jpg">
+  <div class="col-sm-4">
+    {% include 18mars_deroule.html %}
+    <p>
+      <a target="_blank" class="btn btn-sm btn-block btn-primary" href="https://materiel.jlm2017.fr/horaires-cars-18-mars/">Horaire et lieux des cars</a>
+    </p>
+    <a class="twitter-timeline"  href="https://twitter.com/hashtag/18Mars2017" data-widget-id="839432817104805892">Tweets sur #18Mars2017</a>
+    <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+        return t;
+      }(document, "script", "twitter-wjs"));</script>
   </div>
 </div>
 
-<hr>
-
-<h3>2. J'aide à diffuser l'information&nbsp;!</h3>
-
-<div class="row">
-  <p>
-    <div class="col-md-6 bottom-margin"><a target="_blank" class="btn btn-lg btn-block" style="background-color:#3b5998;color: white;" href="https://www.facebook.com/sharer/sharer.php?app_id=113869198637480&sdk=joey&u=http%3A%2F%2F18mars2017.fr%2F&display=popup&ref=plugin&src=share_button">PARTAGER SUR FACEBOOK</a></div>
-    <div class="col-md-6 bottom-margin"><a target="_blank" class="btn btn-lg btn-block" style="background-color:#4099FF;color: white;" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Ffr%2Fresources%2Fbuttons&ref_src=twsrc%5Etfw&text=🚌%20Évènement%2C%20transport...%20toutes%20les%20infos%20sur%20la%20marche%20pour%20la%206e%20République%20du%20%2318Mars2017%20sont%20ici%20%3A&tw_p=tweetbutton&url=http%3A%2F%2F18mars2017.fr%2F">PARTAGER SUR TWITTER</a></div>
-    <div class="col-md-12"><p>Utilisez un de ces visuels en couverture&nbsp;:</p></div>
-    <div class="col-md-6 bottom-margin"><a target="_blank" class="btn btn-lg btn-block btn-primary" href="visuels_rs/VisuelsCouvFB.zip">Visuels Facebook</a></div>
-    <div class="col-md-6 bottom-margin"><a target="_blank" class="btn btn-lg btn-block btn-primary" href="visuels_rs/VisuelsCouvTW.zip">Visuels Twitter</a></div>
-  <br/><br/>
-</div>
-<hr />
-<p><small>Les journalistes souhaitant &ecirc;tre accr&eacute;dit&eacute;s pour cet &eacute;v&eacute;nement doivent en faire la demande via <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgrMlUOUYOqn1gqU8BBoBc-wDVK5MPYxpIMVQjBN9mJwghMg/viewform" target="_blank">le formulaire en ligne</a>. Attention, nous ne pourrons pas garantir &agrave; tous les m&ecirc;mes acc&egrave;s. Nous examinerons chaque demande et vous tiendrons inform&eacute;s de la suite donn&eacute;e dans les meilleurs d&eacute;lais.</small></p>
+<script>window.direct = "/{{ site.data_dir }}/{{ direct }}.yml";</script>
+<script type="text/javascript" src="/main.95ed4e20.js"></script>
