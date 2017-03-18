@@ -1,3 +1,15 @@
+- time: "10:34"
+  content: |
+    Linda, 27 ans, ingénieur d'affaires, Issy Les Moulineaux
+  image: photos/10-34.jpg
+  img_full_width: true
+
+- time: "10:29"
+  content: |
+    Émmeline, 24, étudiante notariat, Malaucene
+  image: photos/10-29.jpg
+  img_full_width: true
+
 - time: "10:28"
   content: |
     Isabelle, 42, factrice, Vaison La Romaine
