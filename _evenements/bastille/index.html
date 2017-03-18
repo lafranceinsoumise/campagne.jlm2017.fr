@@ -44,7 +44,10 @@ theme: 6e République
   </div>
   <div class="col-sm-4">
     <p>
-      <iframe src="https://www.youtube.com/live_chat?v=b5atq_VZd2M&embed_domain=18mars2017.fr" width="500" height="600" frameborder="0"></iframe>
+      <iframe width="500" src="https://www.youtube.com/live_chat?v=b5atq_VZd2M&embed_domain=18mars2017.fr" height="600" frameborder="0" id="tchat"></iframe>
+      <script>
+        document.getElementById('tchat').src = 'https://www.youtube.com/live_chat?v=b5atq_VZd2M&embed_domain=' + location.host;
+      </script>
     </p>
     {% include 18mars_deroule.html %}
     <a class="twitter-timeline"  href="https://twitter.com/hashtag/18Mars2017" data-widget-id="839432817104805892">Tweets sur #18Mars2017</a>
