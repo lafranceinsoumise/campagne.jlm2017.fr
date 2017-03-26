@@ -1,3 +1,9 @@
+- time: "11:50"
+  content: |
+    Interview dans le train.
+  image: photos/11-50.jpg
+  img_full_width: true
+
 - time: "10:27"
   content: |
     À la Gare Montparnasse avec Manuel Bompard. Direction Rennes pour retrouver
