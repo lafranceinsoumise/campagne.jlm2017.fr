@@ -22,7 +22,7 @@ theme: Réunion publique à Rennes
     </p>
 
     <!--<p>
-      <!-- boutons partage rs 
+      <!-- boutons partage rs
       <div class="row">
         <div class="col-xs-6">
           <a class="btn btn-block btn-lg" style="background-color:#3b5998;color: white;"  href="https://www.facebook.com/sharer/sharer.php?app_id=113869198637480&sdk=joey&u=https%3A%2F%2Fcampagne.jlm2017.fr%2F&display=popup&ref=plugin&src=share_button">PARTAGEZ SUR FACEBOOK</a>
@@ -53,7 +53,6 @@ theme: Réunion publique à Rennes
     </div>
 
     <h3>En direct</h3>
-    <p><small>Rechargez la page pour voir les dernières informations.</small></p>
     <div class="row">
       <div style="max-height: 1500px; border-left: 1px solid #DDD; overflow:auto; padding-top: 10px;" id="direct">
         {% assign direct='direct_rennes' %}
@@ -75,7 +74,8 @@ theme: Réunion publique à Rennes
     <!-- widget twitter -->
     <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/JLMRennes" data-widget-id="845692937472262145">Tweets sur #JLMRennes</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+    <script>window.direct = "/{{ site.data_dir }}/{{ direct }}.yml";</script>
+    <script type="text/javascript" src="/main.95ed4e20.js"></script>
 
 
     <hr/>
