@@ -4,12 +4,12 @@ title: EN DIRECT - MÉLENCHON - Réunion publique à Rennes
 slug : rennes
 menu : true
 date: 2017-03-25
-image: photos/visuel_rs.jpg
+image: photos/visuel_RS2.jpg
 description: |
-  Le dimanche 5 février, l'hologramme de Jean-Luc Mélenchon sera en meeting à Paris en direct alors que Jean-Luc Mélenchon fera le meeting en présence à Lyon. Ce meeting aura lieu aux Docks de Paris - Métro Front Populaire à Aubervilliers et au centre de convention, Eurexpo à l'espace Paul Bocuse (ne pas se rendre à l'entrée principale) - avenue Marius Berliet, 69680 Chassieu (Tram T5 ou ligne 100).
+  Le dimanche 26 mars à 15h, Jean-Luc Mélenchon tiendra une réunion publique à Rennes. Elle aura lieu au Liberté, esplanade du Général de Gaulle, et sera retransmise en direct.
 map: true
-subject: Réunion publique "aux frontières de l'humanité"
-theme: meeting hologramme "aux frontières de l'humanité"
+subject: Réunion publique à Rennes
+theme: Réunion publique à Rennes
 ---
 
 <div class="row">
@@ -18,7 +18,7 @@ theme: meeting hologramme "aux frontières de l'humanité"
 
     <!-- Streaming -->
     <p>
-      <iframe width="1280" height="720" src="https://www.youtube.com/embed/XlnQ801wWf4?rel=0" frameborder="0" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/RUUS-SF23D0" frameborder="0" allowfullscreen></iframe>
     </p>
 
     <p>
@@ -28,7 +28,7 @@ theme: meeting hologramme "aux frontières de l'humanité"
           <a class="btn btn-block btn-lg" style="background-color:#3b5998;color: white;"  href="https://www.facebook.com/sharer/sharer.php?app_id=113869198637480&sdk=joey&u=https%3A%2F%2Fcampagne.jlm2017.fr%2F&display=popup&ref=plugin&src=share_button">PARTAGEZ SUR FACEBOOK</a>
         </div>
         <div class="col-xs-6">
-          <a class="btn btn-block btn-lg" style="background-color:#4099FF;color: white;" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Ffr%2Fresources%2Fbuttons&ref_src=twsrc%5Etfw&text=🔴%20EN%20DIRECT%20DIMANCHE%205%20FÉVRIER%20À%2014H00%20-%20Double%20meeting%20de%20Jean-Luc%20MÉLENCHON%20à%20Lyon%20et%20Paris%20-%20%23JLMHologramme&tw_p=tweetbutton&url=https%3A%2F%2Fcampagne.jlm2017.fr">PARTAGEZ SUR TWITTER</a>
+          <a class="btn btn-block btn-lg" style="background-color:#4099FF;color: white;" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Ffr%2Fresources%2Fbuttons&ref_src=twsrc%5Etfw&text=%5BEN%20DIRECT%20À%2015H00%5D%20%40JLMelenchon%20en%20réunion%20publique%20à%20Rennes.%20Participez%20avec%20%23JLMRennes.%20Suivez%20le%20direct%20ici%20%3A&tw_p=tweetbutton&url=https%3A%2F%2Fcampagne.jlm2017.fr">PARTAGEZ SUR TWITTER</a>
         </div>
       </div>
     </p>
@@ -37,7 +37,7 @@ theme: meeting hologramme "aux frontières de l'humanité"
       <div class="col-md-12">
 
         <p class="lead">
-          Participez sur <a href="https://twitter.com/search?q=%23JLMHologramme">#JLMHologramme</a>
+          Participez sur <a href="https://twitter.com/search?q=%23JLMRennes">#JLMRennes</a>
         </p>
 
         <!-- Bouton donner -->
@@ -53,11 +53,9 @@ theme: meeting hologramme "aux frontières de l'humanité"
     </div>
 
     <h3>En direct</h3>
-    <p><small>Rechargez la page pour voir les dernières informations.</small></p>
     <div class="row">
-      <div style="max-height: 950px; overflow:auto;">
-        {% assign direct='direct_hologramme' %}
-        {% include direct.html %}
+      <div style="max-height: 1500px; border-left: 1px solid #DDD; overflow:auto; padding-top: 10px;" id="direct">
+        {% assign direct='direct_rennes' %}
       </div>
     </div>
 
@@ -68,14 +66,16 @@ theme: meeting hologramme "aux frontières de l'humanité"
 
     <!-- Infos -->
     <div class="lead hidden-xs hidden-sm">
-      Participez sur <a href="https://twitter.com/search?q=%23JLMHologramme">#JLMHologramme</a>&nbsp;!
+      Participez sur <a href="https://twitter.com/search?q=%23JLMRennes">#JLMRennes</a>&nbsp;!
     </div>
 
-    <iframe width="500" src="https://www.youtube.com/live_chat?v=XlnQ801wWf4&embed_domain=campagne.jlm2017.fr" height="600" frameborder="0" id="tchat"></iframe>
+    <!-- déroulé -->
 
     <!-- widget twitter -->
-    <a class="twitter-timeline"  href="https://twitter.com/hashtag/JLMHologramme" data-widget-id="827167861974167552">Tweets sur #JLMHologramme</a>
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/JLMRennes" data-widget-id="845692937472262145">Tweets sur #JLMRennes</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <script>window.direct = "/{{ site.data_dir }}/{{ direct }}.yml";</script>
+    <script type="text/javascript" src="/main.95ed4e20.js"></script>
 
 
     <hr/>
