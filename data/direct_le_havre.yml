@@ -1,8 +1,16 @@
+- time: "18:53"
+  content: |
+    En bout de chaîne une machine met les flacons en palette. Avant cette étape, il y a des machines qui finalisent la création du flacon :
+      - une machine française qui, à l'aide de caméras, vérifie que les flacons sont en bon état et fait le tri
+      - une autre machine, un retourneur-souffleur,  enlève les petites poussières à l'intérieur des flacons
+
+    Mais il était interdit de les prendre en photo, la première machine étant la seule qui existe au monde (secret professionnel).
+  image: photos/18-53.jpg
+
 - time: "18:51"
   content: |
     Les moules des flacons
   image: photos/18-51.jpg
-
 
 - time: "18:50"
   content: |
