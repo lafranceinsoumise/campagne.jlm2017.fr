@@ -1,15 +1,15 @@
 ---
 layout: default
-title: EN DIRECT - MÉLENCHON - Réunion publique au Havre
-slug : le_havre
+title: EN DIRECT - MÉLENCHON - Réunion publique à Rennes
+slug : rennes
 menu : true
-date: 2017-03-29
-image: photos/visuel_RS.jpg
+date: 2017-03-25
+image: evenements/rennes/photos/visuel_RS2.jpg
 description: |
-   Mercredi 29 mars à 19h30, Jean-Luc Mélenchon tiendra une réunion publique au Havre aux Docks Océane (Quai Frissard). Partagez sur les réseaux-sociaux avec #JLMLeHavre.
+  Le dimanche 26 mars à 15h, Jean-Luc Mélenchon tiendra une réunion publique à Rennes. Elle aura lieu au Liberté, esplanade du Général de Gaulle, et sera retransmise en direct.
 map: true
-subject: Réunion publique au Havre
-theme: Réunion publique au Havre
+subject: Réunion publique à Rennes
+theme: Réunion publique à Rennes
 ---
 
 <div class="row">
@@ -18,26 +18,26 @@ theme: Réunion publique au Havre
 
     <!-- Streaming -->
     <p>
-      <img src="photos/visuel_RS.jpg" alt="visuel_RS.jpg">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/RUUS-SF23D0" frameborder="0" allowfullscreen></iframe>
     </p>
 
     <p>
       <!-- boutons partage rs -->
-      <!-- <div class="row">
+      <div class="row">
         <div class="col-xs-6">
           <a class="btn btn-block btn-lg" style="background-color:#3b5998;color: white;"  href="https://www.facebook.com/sharer/sharer.php?app_id=113869198637480&sdk=joey&u=https%3A%2F%2Fcampagne.jlm2017.fr%2F&display=popup&ref=plugin&src=share_button">PARTAGEZ SUR FACEBOOK</a>
         </div>
         <div class="col-xs-6">
           <a class="btn btn-block btn-lg" style="background-color:#4099FF;color: white;" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Ffr%2Fresources%2Fbuttons&ref_src=twsrc%5Etfw&text=%5BEN%20DIRECT%20À%2015H00%5D%20%40JLMelenchon%20en%20réunion%20publique%20à%20Rennes.%20Participez%20avec%20%23JLMRennes.%20Suivez%20le%20direct%20ici%20%3A&tw_p=tweetbutton&url=https%3A%2F%2Fcampagne.jlm2017.fr">PARTAGEZ SUR TWITTER</a>
         </div>
-      </div> -->
+      </div>
     </p>
 
     <div class="row">
       <div class="col-md-12">
 
         <p class="lead">
-          Participez sur <a href="https://twitter.com/search?q=%23JLMLeHavre">#JLMLeHavre</a>
+          Participez sur <a href="https://twitter.com/search?q=%23JLMRennes">#JLMRennes</a>
         </p>
 
         <!-- Bouton donner -->
@@ -55,7 +55,7 @@ theme: Réunion publique au Havre
     <h3>En direct</h3>
     <div class="row">
       <div style="max-height: 1500px; border-left: 1px solid #DDD; overflow:auto; padding-top: 10px;" id="direct">
-        {% assign direct='direct_le_havre' %}
+        {% assign direct='direct_rennes' %}
       </div>
     </div>
 
@@ -66,17 +66,14 @@ theme: Réunion publique au Havre
 
     <!-- Infos -->
     <div class="lead hidden-xs hidden-sm">
-      Participez sur <a href="https://twitter.com/search?q=%23JLMLeHavre">#JLMLeHavre</a>&nbsp;!
+      Participez sur <a href="https://twitter.com/search?q=%23JLMRennes">#JLMRennes</a>&nbsp;!
     </div>
 
     <!-- tchat -->
     <!-- <iframe width="500" src="https://www.youtube.com/live_chat?v=RUUS-SF23D0&embed_domain=campagne.jlm2017.fr" height="800" frameborder="0" id="tchat"></iframe> -->
 
-    <!-- deroulé -->
-    {% include le_havre_deroule.html %}
-
     <!-- widget twitter -->
-    <a class="twitter-timeline"  href="https://twitter.com/hashtag/JLMLeHavre" data-widget-id="846657111354462208">Tweets sur #JLMLeHavre</a>
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/JLMRennes" data-widget-id="845692937472262145">Tweets sur #JLMRennes</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     <script>window.direct = "/{{ site.data_dir }}/{{ direct }}.yml";</script>
     <script type="text/javascript" src="/main.95ed4e20.js"></script>
