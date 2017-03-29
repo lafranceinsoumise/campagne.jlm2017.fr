@@ -1,3 +1,9 @@
+- time: "29 mars 11:24"
+  content: |
+    Au port du Havre, en haut de la plateforme. À cette hauteur, le vent nous fait tanguer... Il ne faut pas voir le vertige !
+  image: photos/mer-11-24.jpg
+  img_full_width: true
+
 - time: "29 mars 10:57"
   content: |
     <iframe width="560" height="315" src="https://www.youtube.com/embed/P9RRsNgCxF4" frameborder="0" allowfullscreen></iframe>
