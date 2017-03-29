@@ -1,3 +1,14 @@
+- time: "29 mars 10:25"
+  content: |
+    Lecture matinale avec une belle Une "La force du peuple". On est en route pour Le Havre. Visite du port à suivre...
+  image: photos/mer-10-25.jpg
+
+- time: "23:32"
+  content: |
+    Visite nocturne du port de Dieppe avec le maire.
+  image: photos/23-32.jpg
+  img_full_width: true
+
 - time: "20:13"
   content: |
     J'arrive sur ce port de Dieppe, je regarde l'horizon et je me dis que la beauté est gratuite. C'est politique. #AuTourDuPeuple
