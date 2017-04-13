@@ -1,13 +1,18 @@
 ---
 layout: default
-title: EN DIRECT - MÉLENCHON - Meeting à Toulouse
-slug : toulouse
-date: 2017-04-16
-image: photos/visuelRS_Toulouse.jpg
+title: 12/04/2017 - Réunion publique à Lille
+slug : lille
+date: 2017-04-12
+menu: true
+image: evenements/lille/photos/visuelRS_Lille.jpg
 description: |
-  Le dimanche 16 avril à 15h, Jean-Luc Mélenchon tiendra un meeting à la Prairie des filtres (Cours Dillon) à Toulouse. Il y aura un pique-nique sur place à partir de 13h. Vous pourrez suivre cet évènement en direct sur Facebook et Youtube. Partagez l'information avec le hashtag #JLMToulouse.
-subject: Meeting à Toulouse
-theme: Meeting à Toulouse
+  Le mercredi 12 avril à 19H30, Jean-Luc Mélenchon tiendra une réunion publique à Lille au Grand Palais. Ce discours sera retransmis en direct sur Facebook et Youtube. Participez en partageant cet évènement avec le hashtag #JLMLille.
+map: true
+coordinates:
+  - 50.62925
+  - 3.057256
+subject: Réunion publique à Lille
+theme: Réunion publique à Lille
 ---
 
 <div class="row">
@@ -16,7 +21,7 @@ theme: Meeting à Toulouse
 
     <!-- Streaming -->
     <p>
-      <img src="photos/visuelRS_Toulouse.jpg" alt="Visuel RS">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ifEhkqG3Vzw" frameborder="0" allowfullscreen></iframe>
     </p>
 
     <p>
@@ -35,7 +40,7 @@ theme: Meeting à Toulouse
       <div class="col-md-12">
 
         <p class="lead">
-          Participez sur <a href="https://twitter.com/search?q=%23JLMToulouse">#JLMToulouse</a>
+          Participez sur <a href="https://twitter.com/search?q=%23JLMLille">#JLMLille</a>
         </p>
 
         <!-- Bouton donner -->
@@ -53,7 +58,7 @@ theme: Meeting à Toulouse
     <h3>En direct</h3>
     <div class="row">
       <div style="max-height: 1500px; border-left: 1px solid #DDD; overflow:auto; padding-top: 10px;" id="direct">
-        {% assign direct='direct_toulouse' %}
+        {% assign direct='direct_lille' %}
       </div>
     </div>
 
@@ -64,16 +69,17 @@ theme: Meeting à Toulouse
 
     <!-- Infos -->
     <div class="lead hidden-xs hidden-sm">
-      Participez sur <a href="https://twitter.com/search?q=%23JLMToulouse">#JLMToulouse</a>&nbsp;!
+      Participez sur <a href="https://twitter.com/search?q=%23JLMLille">#JLMLille</a>&nbsp;!
     </div>
 
     <!-- tchat -->
     <!-- <iframe src="https://www.youtube.com/live_chat?v=ifEhkqG3Vzw&embed_domain=campagne.jlm2017.fr" width="500" height="800" frameborder="0"></iframe> -->
 
     <!-- deroulé -->
+    {% include lille_deroule.html %}
 
     <!-- widget twitter -->
-    <a class="twitter-timeline"  href="https://twitter.com/hashtag/JLMToulouse" data-widget-id="852462660151017472">Tweets sur #JLMToulouse</a>
+    <a class="twitter-timeline"  href="https://twitter.com/hashtag/JLMLille" data-widget-id="851725193475223553">Tweets sur #JLMLille</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     <script>window.direct = "/{{ site.data_dir }}/{{ direct }}.yml";</script>
     <script type="text/javascript" src="/main.95ed4e20.js"></script>
