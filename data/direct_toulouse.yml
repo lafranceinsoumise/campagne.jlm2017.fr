@@ -1,3 +1,13 @@
+- time: "16:10"
+  content: |
+    Vue du drone
+  image: photos/2017-04-16_16-10.jpg
+  img_full_width: true
+
+- time: "16:06"
+  content: |
+    <blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">70 000 personnes rassemblées au bord de la Garonne pour l&#39;Avenir en Commun à Toulouse ! Bravo ! <a href="https://twitter.com/hashtag/JLMToulouse?src=hash">#JLMToulouse</a> <a href="https://twitter.com/hashtag/LaForceDuPeuple?src=hash">#LaForceDuPeuple</a> <a href="https://t.co/95xqbZPFvO">pic.twitter.com/95xqbZPFvO</a></p>&mdash; Jean-Luc Mélenchon (@JLMelenchon) <a href="https://twitter.com/JLMelenchon/status/853609467946160129">16 avril 2017</a></blockquote>
+
 - time: "13:56"
   content: |
     Vue depuis la scène. Il reste encore un peu de place 😉
