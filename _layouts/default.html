@@ -163,12 +163,14 @@
       var places = [
         {% assign evenements = site.evenements | where: 'map', 'true' %}
         {% for event in evenements %}
-          {
-            url: "{{ event.url }}",
-            subject: "{{ event.subject | escape }}",
-            theme: "{{ event.theme | escape }}",
-            coordinates: [{{ event.coordinates[0] }}, {{ event.coordinates[1] }}]
-          },
+          {% for eventCoord in event.coordinates %}
+            {
+              url: "{{ event.url }}",
+              subject: "{{ event.subject | escape }}",
+              theme: "{{ event.theme | escape }}",
+              coordinates: [{{ eventCoord[0] }}, {{ eventCoord[1] }}]
+            },
+          {% endfor %}
         {% endfor %}
       ];
       drawMap(places);
